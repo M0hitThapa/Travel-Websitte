@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import { NAV_LINKS } from "../constants"
 const Navbar = () => {
   return (
-    <nav className="flex justify-between p-2 text-black ">
+    <nav className="flex justify-between p-2 text-black  ">
         <Link href="/">
         <h1 className="h-10 w-80 font-black text-3xl font-lora pl-16">Lets Travel</h1>
         </Link>
